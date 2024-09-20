@@ -43,7 +43,7 @@ export default function Accordian() {
             </div>
           ))
         ) : (
-          <div>no data found!</div>
+          <div>no data found!</ div>
         )}
       </div>
     </div>

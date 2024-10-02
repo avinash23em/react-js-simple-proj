@@ -4,6 +4,7 @@ import './App.css'
 import Accordian from './components/accordian';
 import RandomColor from './components/random-color';
 import StartRating from './components/star-rating';
+import ImageSlider from './components/image-slider';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +12,7 @@ function App() {
   return (
    <div className='App'>
     
-    <StartRating noofstars={10}/>
+    <ImageSlider url={'http://picsum.photos/v2/list'} page={"2"} limit={"15"}/>
    </div>
   );
 }

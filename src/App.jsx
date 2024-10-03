@@ -5,6 +5,7 @@ import Accordian from './components/accordian';
 import RandomColor from './components/random-color';
 import StartRating from './components/star-rating';
 import ImageSlider from './components/image-slider';
+import ImageLoader from './components/load_more';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +13,7 @@ function App() {
   return (
    <div className='App'>
     
-    <ImageSlider url={'http://picsum.photos/v2/list'} page={"2"} limit={"15"}/>
+   <ImageLoader/>
    </div>
   );
 }

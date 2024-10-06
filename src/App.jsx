@@ -6,6 +6,7 @@ import RandomColor from './components/random-color';
 import StartRating from './components/star-rating';
 import ImageSlider from './components/image-slider';
 import ImageLoader from './components/load_more';
+import Qrcode from './components/qr-code-generator';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,7 +14,7 @@ function App() {
   return (
    <div className='App'>
     
-   <ImageLoader/>
+   <Qrcode/>
    </div>
   );
 }

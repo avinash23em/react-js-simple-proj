@@ -7,6 +7,8 @@ import StartRating from './components/star-rating';
 import ImageSlider from './components/image-slider';
 import ImageLoader from './components/load_more';
 import Qrcode from './components/qr-code-generator';
+import Treeview from './components/tree-view';
+import menus from './components/tree-view/data';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,7 +16,8 @@ function App() {
   return (
    <div className='App'>
     
-   <Qrcode/>
+   <Treeview menus={menus}/>
+
    </div>
   );
 }

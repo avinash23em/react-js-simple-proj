@@ -9,6 +9,7 @@ import ImageLoader from './components/load_more';
 import Qrcode from './components/qr-code-generator';
 import Treeview from './components/tree-view';
 import menus from './components/tree-view/data';
+import Lightdarkmode from './components/light-dark-mode';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,7 +17,7 @@ function App() {
   return (
    <div className='App'>
     
-   <Treeview menus={menus}/>
+   <Lightdarkmode/>
 
    </div>
   );

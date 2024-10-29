@@ -10,6 +10,8 @@ import Qrcode from './components/qr-code-generator';
 import Treeview from './components/tree-view';
 import menus from './components/tree-view/data';
 import Lightdarkmode from './components/light-dark-mode';
+import Tabs from './components/custom-tabs/tabs';
+import Tabtest from './components/custom-tabs/tab-test';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,7 +19,7 @@ function App() {
   return (
    <div className='App'>
     
-   <Lightdarkmode/>
+   <Tabtest/>
 
    </div>
   );

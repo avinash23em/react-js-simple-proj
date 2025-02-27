@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <div>stripe page</div>
+      <div className='text-3xl bg-blue-500 font-bold'>stripe page</div>
         </>
   )
 }

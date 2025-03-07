@@ -1,7 +1,10 @@
+import Start from "../icons/startbg";
 
 export default function Home() {
   return (
-    <div className="bg-pink-500">what do u mean</div>
+    <div>
+    <div><Start/></div>
+    </div>
   )
 }
 

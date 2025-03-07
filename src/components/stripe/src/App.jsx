@@ -10,9 +10,9 @@ import Navabr from '../components/Routes/navbar'
 
 export default function App() {
   return (
-    <div className="bg-pink-400">
+    <div >
     <div><Navabr/></div>
-      <div className='h-screen'><Home/></div>
+      <div><Home/></div>
     </div>
   );
 }

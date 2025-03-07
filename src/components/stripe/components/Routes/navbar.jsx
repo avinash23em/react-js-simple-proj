@@ -1,6 +1,7 @@
 import Logo from "../icons/Logo"
 import Arrow from "../icons/arrow1"
 import Arrow1 from "../icons/arrow"
+import { FaBars } from "react-icons/fa"
 
 export default function Navabr(){
     return (
@@ -46,7 +47,7 @@ export default function Navabr(){
         </div>
       </div>
 
-      
+      <div><FaBars/></div>
       <div className='col-span-1'></div>
 
       
